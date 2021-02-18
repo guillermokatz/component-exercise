@@ -1,0 +1,27 @@
+.payType {
+    margin: 0.5rem;
+    width: 33.333333%;
+    display: inline;
+    background-color: #FFFFFF;
+    padding: 1.5rem 2.5rem;
+    border-width: 1px;
+    border-radius: 0.25rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    transition-duration: 300ms;
+}
+
+.payType:hover {
+    --tw-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+    box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+    background-color: #2563EB;
+}
+
+@media (min-width: 641px) {
+    .payType {
+        margin-left: 0.75rem;
+        margin-right: 0.75rem;
+        height: 33.333333%;
+    }
+}
